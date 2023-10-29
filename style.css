@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    margin-left: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    background-color: #ffcc33;
+    padding: 10px;
+    margin: 10;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#add-button {
+    background-color: #33cc33;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-button:hover {
+    background-color: #4CAF50;
+}
+
+/* Light mode */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add more specific styles for dark mode elements */
+
+/* Add dark mode styles for other elements as needed */
+
+/* Add more specific styles for dark mode elements */
+#todo-list.dark-mode {
+    background-color: #444;
+}
+
+/* Add dark mode styles for other elements as needed */
+
+/* CSS for Light Mode button */
+#toggle-light-mode {
+    display: none;
+}
